@@ -1,0 +1,33 @@
+
+.numbers {
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+}
+
+.del_and_clr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.display{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    width: 25vw;
+    height: 50vh;
+    background-color: gray;
+}
