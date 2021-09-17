@@ -15,26 +15,26 @@
     <div class="calculator">
         <div class="display">0</div>
         <div class = "del_and_clr">
-            <button id="delete">delete</button>
-            <button id="clear">clear</button>
+            <button id="delete" onclick="_clear()">delete</button>
+            <button id="clear" onclick="_clear()" >clear</button>
         </div>
         <div class="numbers">
-            <button id="7" onclick="add_digit(7)">7</button>
-            <button id="8" onclick="add_digit(8)">8</button>
-            <button id="9" onclick="add_digit(9)">9</button>
-            <button id="multiplication">*</button>
-            <button id="6" onclick="add_digit(6)">6</button>
-            <button id="5" onclick="add_digit(5)">5</button>
-            <button id="4" onclick="add_digit(4)">4</button>
-            <button id="division">/</button>
-            <button id="3" onclick="add_digit(3)">3</button>
-            <button id="2" onclick="add_digit(2)">2</button>
-            <button id="1" onclick="add_digit(1)">1</button>
-            <button id="+">+</button>
-            <button id="sign">+/-</button>
-            <button id="0" onclick="add_digit(0)">0</button>
-            <button id="coma">.</button>
-            <button id="-">-</button>
+            <button class="num_btn">7</button>
+            <button class="num_btn">8</button>
+            <button class="num_btn">9</button>
+            <button class="operation">*</button>
+            <button class="num_btn" >6</button>
+            <button class="num_btn">5</button>
+            <button class="num_btn">4</button>
+            <button class="operation">/</button>
+            <button class="num_btn">3</button>
+            <button class="num_btn">2</button>
+            <button class="num_btn">1</button>
+            <button class="operation">+</button>
+            <button id="coma" onclick="add_digit('.')">.</button>
+            <button class="num_btn">0</button>
+            <button class="eval" >=</button>
+            <button class="operation">-</button>
         </div>
     </div>
     
